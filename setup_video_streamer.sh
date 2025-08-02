@@ -12,7 +12,7 @@ sudo apt install -y ffmpeg v4l-utils python3 python3-venv python3-pip
 
 echo "📁 Creating app directory..."
 sudo mkdir -p "$APP_DIR"
-sudo cp -r "$REPO_DIR/app/" "$APP_DIR/"
+sudo cp -r "$REPO_DIR/" "$APP_DIR/"
 sudo chown -R $USER:$USER "$APP_DIR"
 
 echo "🐍 Creating virtualenv..."
