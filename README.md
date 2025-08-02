@@ -18,7 +18,7 @@ Logs to /var/log/video_streamer.log
 On a fresh Raspberry Pi OS install:
 
 bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/setup_video_streamer.sh | bash
+curl -sSL https://raw.githubusercontent.com/jsbkje/RPI4HDMIstream/refs/heads/main/setup_video_streamer.sh | bash
 Replace YOUR_USERNAME and YOUR_REPO with your actual GitHub path.
 
 📺 Viewing the Stream
